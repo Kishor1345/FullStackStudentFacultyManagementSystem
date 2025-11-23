@@ -1,0 +1,16 @@
+.passwordeye1 {
+  top: -51px;
+  left: 250px;
+  cursor: pointer;
+}
+.passwordeye2 {
+  top: 23px;
+  left: 250px;
+  cursor: pointer;
+}
+#registerbtn {
+  background-color: #56007f;
+}
+#registerbtn:hover {
+  background-color: #7c14ad;
+}
