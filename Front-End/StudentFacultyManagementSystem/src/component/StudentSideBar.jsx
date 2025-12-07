@@ -6,7 +6,7 @@ const StudentSideBar = () => {
       <div
         className="container-fluid  d-flex flex-column align-items-center text-center"
         style={{
-          backgroundColor: "#56007F",
+          backgroundColor: "#01365E",
           borderRadius: "0px 50px 50px 0px",
         }}
       >

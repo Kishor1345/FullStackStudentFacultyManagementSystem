@@ -78,7 +78,7 @@ const Register = () => {
 
     const data = await request.text();
 
-    setAlertMessage(data + " ✅");
+    setAlertMessage(data=="Email_Already_Exist"?data+" ❌":data+" ✅");
     setNavigation(true);
     setShowAlert(true);
   } catch (error) {
@@ -356,7 +356,7 @@ const Register = () => {
           onClose={() => {
             setShowAlert(false);
             {
-              navigation ? navigate("/login") : "";
+              navigation ? navigate() : "";
             }
           }}
         />

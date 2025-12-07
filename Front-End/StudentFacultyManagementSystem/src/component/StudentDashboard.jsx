@@ -8,7 +8,7 @@ const StudentDashboard = () => {
         <div className="row d-flex justify-content-center">
           <div className="col-2 p-0">
             <StudentSideBar />
-            {/* <DashboardHome/> */}
+            <DashboardHome/>
           </div>
           <div className="col-10 p-0"></div>
         </div>

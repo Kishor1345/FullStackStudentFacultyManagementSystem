@@ -27,7 +27,7 @@
 }
 
 .alert-box button {
-  background-color: #56007f;
+  background-color: #01365E;
   color: white;
   border: none;
   border-radius: 8px;
@@ -37,7 +37,7 @@
 }
 
 .alert-box button:hover {
-  background-color: #7c14ad;
+  background-color: #537d9e;
 }
 
 @keyframes fadeIn {

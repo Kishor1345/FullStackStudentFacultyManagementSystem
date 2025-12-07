@@ -11,7 +11,7 @@ const Home = () => {
             <p className="fs-1  fw-semibold">
               <span
                 style={{
-                  color: "#56007F",
+                  color: "#01365E",
                   fontSize: "40px",
                   fontWeight: "bold",
                 }}
