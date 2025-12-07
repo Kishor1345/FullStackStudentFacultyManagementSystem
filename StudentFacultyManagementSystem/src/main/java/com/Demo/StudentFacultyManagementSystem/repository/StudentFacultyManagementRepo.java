@@ -2,7 +2,6 @@ package com.Demo.StudentFacultyManagementSystem.repository;
 
 import com.Demo.StudentFacultyManagementSystem.model.StudentFacultyManagement;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.data.jpa.repository.Query;
 
 import java.util.Optional;
 
