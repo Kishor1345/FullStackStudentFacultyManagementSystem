@@ -36,4 +36,12 @@ public class StudentFacultyManagementService {
         }
         return 3;
     }
+
+    public String recordRegister(StudentFacultyManagement stdFacManager) {
+        if (stdFacManagerRepo.existsByEmail(stdFacManager.getEmail())) {
+            return "Email_Already_Exist";
+        }
+        stdFacManagerRepo.save(stdFacManager);
+        return "Register Successfully";
+    }
 }
